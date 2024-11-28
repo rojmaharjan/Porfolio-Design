@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Container{
+    width: 100vw;
+    min-height: 100vh;
+    background: #Ced8ff;
+    transition: 0.5s;
+}
+.Container.dark{
+    background: #222;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 15px 7%;
+    transition: 0.5s;
+}
+.logo{
+    width: 140px;
+    height: 70px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 2px 2px 3px
+    rgb(246, 246, 246), 
+    0 0 25px rgb(184, 184, 186), 
+    0 0 5px rgb(219, 219, 219);
+}
+ul{
+    flex: 1;
+    list-style: none;
+    text-align: center;
+}
+ul li{
+    display: inline-block;
+    margin: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.toggle-icon{
+    width: 50px;
+    cursor: pointer;
+    margin-left: 80px;
+    margin-right: -80px;
+}
+
+.search-box{
+    display: flex;
+    align-items: center;
+    background: #242424;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+.search-box input{
+    padding: 6px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 18px;
+    max-width: 200px;
+} 
+.search-box input::placeholder{
+    color: #fff;
+}
+.search-box img{
+    width: 20px;
+    cursor: pointer;
+}
+.dark .navbar{
+    background: #000;
+    color: #fff;
+}
+.dark .search-box{
+    background: #fff;
+}
+.dark .search-box input{
+    color: #222;
+}
+.dark .search-box input::placeholder{
+    color: #222;
+}
