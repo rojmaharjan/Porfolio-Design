@@ -15,10 +15,15 @@ useEffect(()=>{
     <>
   <div className={`Container ${theme}`}>
   <Navbar theme={theme} settheme={settheme}/>
+    <div className="home">
     <div className="header-text">
             <p>Frontend Developer</p>
-            <h1>Hi, I'm <span>Roj Maharjan</span> <br /> from Nepal.</h1>
+            <h1>Hi, I'm <span>Roj Maharjan</span> <br /></h1>
           </div>
+    <div className="image">
+    <img src="/logo roj.png" alt="" />
+    </div>
+    </div>
   </div>
 
    

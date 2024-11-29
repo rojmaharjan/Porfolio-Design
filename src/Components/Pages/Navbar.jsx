@@ -13,7 +13,7 @@ const Navbar = ({ theme, settheme }) => {
   return (
     <>
       <div className="navbar">
-        <img src="/roj logo.png" alt="Roj" className="logo" />
+        <Link to="/"><img src="/roj logo.png" alt="Roj" className="logo" /></Link>
         <ul>
           <Link to="/"><li>Home</li></Link>
           <Link to="/About"><li>About</li></Link>

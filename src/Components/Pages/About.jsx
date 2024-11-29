@@ -24,7 +24,7 @@ const About = () => {
         <div className="container">
           <div className="row">
             <div className="about-col-1">
-              <img src="Picture/Roj Maharjan.jpg" alt="Roj" />
+              <img src="/roj.jpg" alt="Roj" />
             </div>
             <div className="about-col-2">
               <h1 className="sub-title">About Me</h1>
@@ -54,7 +54,7 @@ const About = () => {
                 </p>
               </div>
   
-              <div className={`tab-contents ${activeTab === 'skills' ? 'active-tab' : ''}`} id="skills">
+              {/* <div className={`tab-contents ${activeTab === 'skills' ? 'active-tab' : ''}`} id="skills">
                 <ul>
                   <li><span>UI/UX</span><br />Designing web app interface</li>
                   <li><span>Web Development</span><br />Web app Development</li>
@@ -76,7 +76,7 @@ const About = () => {
                   <li><span>Web Development</span><br />Web app Development</li>
                   <li><span>App Development</span><br />Building Android iOS apps</li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
