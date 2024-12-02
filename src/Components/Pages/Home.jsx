@@ -21,7 +21,7 @@ useEffect(()=>{
             <h1>Hi, I'm <span>Roj Maharjan</span> <br /></h1>
           </div>
     <div className="image">
-    <img src="/logo roj.png" alt="" />
+    {theme === 'dark' && <img src="/image.png" alt="Profile" />}
     </div>
     </div>
   </div>

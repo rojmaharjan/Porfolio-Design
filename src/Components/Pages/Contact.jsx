@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Navbar from './Navbar';
+import '../Style/Contact.css'
 
 const Contact = () => {
   const current_time = localStorage.getItem('current_time');
@@ -14,7 +15,7 @@ const Contact = () => {
    <>
   <div className={`Container ${theme}`}>
          <Navbar theme={theme} settheme={settheme}/>
-  
+        
       </div>
    </>
   )

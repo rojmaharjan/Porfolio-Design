@@ -6,7 +6,7 @@
 .Container{
     width: 100vw;
     min-height: 100vh;
-    background: #bcbcf0;
+    background-image: url("/public/background.jpg");
     transition: 0.5s;
 }
 .Container.dark{
@@ -45,7 +45,8 @@ ul li{
     margin: 10px 20px;
     font-size: 23px;
     cursor: pointer;
-    color: wheat;
+    color: #000;
+    font-family:cursive;
 }
 li:hover{
     color: rgb(238, 160, 160);
@@ -95,9 +96,13 @@ li:hover{
 .dark .search-box input::placeholder{
     color: #222;
 }
+.dark li{
+    color: #fff;
+}
     /* Home Page css */
 .home{
     display: flex;
+    font-family: cursive;
 }
 .header-text{
     margin-left: 250px;
@@ -115,6 +120,13 @@ li:hover{
 .header-text h1 span{
     color: #ff004f;
 }
+.home{
+    padding: 50px;
+    margin-top: 100px;
+}
+.header-text{
+    margin-top: 40px;
+}
 .home .image{
     padding: 10px;
 }
@@ -122,12 +134,17 @@ li:hover{
     width: 70%;
     height: 100%;
     margin-left: 100px;
-    margin-top: px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 3.5px
+    rgb(246, 246, 246), 
+    0 0 25px rgb(184, 184, 186), 
+    0 0 5px rgb(219, 219, 219);
 }
     /* About css */
 #About{
     /* padding: 80px 0   ; */
     color: #abaaba;
+    font-family: cursive;
 }
 .row{
     display: flex;
@@ -140,25 +157,41 @@ li:hover{
     margin-left: 20px;
 }
 .about-col-1 img{
-    width: 100%;
+    width: 400px;
     border-radius: 50px;
+    margin-left: 100px;
+    margin-top: 40px;
 }
 .about-col-2{
     flex-basis: 60%;
     color: #808080;
 }
-.sub-title{
+.dark .sub-title{
     font-size: 60px;                                        
     font-weight: 600;
-    color: rgb(232, 109, 168);
+    color: rgb(236, 212, 223);
     text-align: center;
     line-height: .8;
     letter-spacing: 2px;
-    padding: 80px;    
+    padding: 80px;
+    font-family: cursive;    
 }
+.sub-title{
+    font-size: 60px;                                        
+    font-weight: 600;
+    color: rgb(123, 122, 122);
+    text-align: center;
+    line-height: .8;
+    letter-spacing: 2px;
+    padding: 80px;
+    font-family: cursive;    
+}
+
 .tab-titles{
     display: flex;
     margin: 20px 0 40px;
+    margin-left: 35%;
+    margin-top: 50px;
 }
 .tab-links{
     margin-right: 50px;
@@ -171,7 +204,7 @@ li:hover{
     content: '';
     width: 0;
     height: 3px;
-    background: #ff004f;
+    background: #605659;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -199,6 +232,7 @@ li:hover{
         /* Service css */
 #Services{
     padding: 30px 0;
+    font-family: cursive;
 }
 .sub-title1{
     font-size: 60px;                                        
