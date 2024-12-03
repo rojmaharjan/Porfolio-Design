@@ -1,0 +1,202 @@
+
+.contact{
+    position: relative;
+    min-height: 100%;
+    display: flex;
+    padding: 100px;
+    align-items: center;
+    flex-direction: column;
+    font-family: cursive; 
+    overflow: hidden;  
+}
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+}
+.content h1{
+    font-size: 3.5em;
+    color: #fff;
+    font-weight: 500;
+    
+}
+.containerr{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+.containerr .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.containerr .contactInfo .box{
+    position: relative;
+    padding: 20px;
+    display: flex;
+    cursor: pointer;
+}
+.containerr .contactInfo .box .icon{
+    position: relative;
+    min-width: 60px;
+    height: 60px;
+    background: repeating-conic-gradient(from 27.5deg, #01dbc2 0%, #01dbc2 10%, transparent 10%, transparent 10%, transparent 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerr .contactInfo .box .icon::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: repeating-conic-gradient(from 117.5deg, #01dbc2 0%, #01dbc2 10%, transparent 10%, transparent 10%, transparent 50%);
+}
+.containerr .contactInfo .box .icon::after{
+    content: "";
+    position: absolute;
+    inset: 2px;
+    background: #222;
+}
+.containerr .contactInfo .box .icon b{
+    position: absolute;
+    inset: 8px;
+    background: #01dbc2;
+    z-index: 2;
+}
+.containerr .contactInfo .box .icon i{
+    position: absolute;
+    z-index: 1000;
+    color: #333;
+    font-size: 1.25em;
+    padding: 12.5px;
+}
+.containerr .contactInfo .box .text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 300;
+}
+.box .text h3{
+    font-weight: 500;
+    color: #01dbc2;
+}
+.contactInfo .txt{
+    color: #01dbc2;
+    margin-top: 50px;
+    font-weight: 500;
+    padding-left: 40px;
+    line-height: 1em;
+}
+.containerr .contactForm{
+    position: relative;
+    width: 40%;
+    background: repeating-conic-gradient(from var(--a), #01dbc2 0%, #01dbc2 10%, transparent 10%, transparent 10%, transparent 50%);
+    animation: animate 6s linear infinite;
+    padding: 60px;
+}
+.containerr .contactForm::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: repeating-conic-gradient(from var(--a), #01dbc2 0%, #01dbc2 10%, transparent 10%, transparent 10%, transparent 50%);
+    animation: animate 6s linear infinite;
+    animation-delay:  -1.5s;
+}
+.containerr .contactForm::after{
+    content: '';
+    position: absolute;
+    inset: 2px;
+    border: 20px solid #222;
+    background: #333;
+}
+@property --a{
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
+}
+@keyframes animate{
+    0%{
+        --a: 0deg;
+    }
+    100%{
+        --a: 360deg;
+    }
+}
+.containerr .contactForm form{
+    position: relative;
+    z-index: 10;
+}
+.containerr .contactForm form h2{
+    font-size: 2em;
+    color: #fff;
+    font-weight: 500;
+}
+.containerr .contactForm form .inpubox{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+.containerr .contactForm form .inpubox input,
+.containerr .contactForm form .inpubox textarea{
+    width: 100% !important;
+    padding: 5px 0;
+    font-size: 1.1em;
+    margin: 10px 0;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid #01dbc2;
+    color: #fff;
+    outline: none;
+    resize: none;
+}
+.containerr .contactForm form .inpubox span{
+    position: absolute;
+    left: 0;
+    pointer-events: none;
+    padding: 5px 0;
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #fff;
+    transition: 0.5s;
+}
+.containerr .contactForm form .inpubox input:focus ~ span ,
+.containerr .contactForm form .inpubox textarea:focus ~ span,
+.containerr .contactForm form .inpubox input:valid ~ span ,
+.containerr .contactForm form .inpubox textarea:valid ~ span{
+    color: #01dbc2;
+    font-size: 0.9em;
+    transform: translateY(-24px);
+}
+.containerr .contactForm form .inpubox input[type="submit"]{
+    width: 100%;
+    background: #01dbc2;
+    color: #222;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+@media (max-width: 991px){
+    .contact{
+        padding: 50px;
+    }
+    .containerr{
+        flex-direction: column;
+    }
+    .containerr .contactInfo,
+    .containerr .contactForm{
+        width: 100%;
+        
+    }
+    .containerr .contactForm{
+        padding: 40px;
+    }
+    .containerr .contactForm form{
+        padding: 10px;
+    }
+}
