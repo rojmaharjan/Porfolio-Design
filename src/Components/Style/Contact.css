@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+}
 
 .contact{
     position: relative;
@@ -37,6 +43,7 @@
     padding: 20px;
     display: flex;
     cursor: pointer;
+    margin-left: 150px;
 }
 .containerr .contactInfo .box .icon{
     position: relative;
