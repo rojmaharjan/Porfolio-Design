@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Navbar from './Navbar'
+import '../Style/About.css'
 
 const About = () => {
   const [activeTab, setActiveTab] = useState('skills');

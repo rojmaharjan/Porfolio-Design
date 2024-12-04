@@ -44,18 +44,19 @@ const Contact = () => {
               </div>
             </div>
             <div className="contactForm">
-              <form action="">
+              <form action="https://api.web3forms.com/submit" method="POST">
                 <h2>Send Message</h2>
+                <input type="hidden" name="access_key" value="6fe9d86e-177c-478f-9b54-0f98e9bfd723"></input>
                 <div className="inpubox">
-                  <input type="text" name='' required="required" />
+                  <input type="text" name="name" required="required" />
                   <span>Full Name</span>
                 </div>
                 <div className="inpubox">
-                  <input type="text" name='' required="required" />
+                  <input type="email" id="email" name="email" required  />
                   <span>Email</span>
                 </div>
                 <div className="inpubox">
-                  <textarea name="" id="" required="required"></textarea>
+                  <textarea name="Message" id="" required="required"></textarea>
                   <span>Message</span>
                 </div>
                 <div className="inpubox">

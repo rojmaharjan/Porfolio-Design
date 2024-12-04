@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Navbar from './Navbar';
+import '../Style/Service.css'
 
 const Service = () => {
   const current_time = localStorage.getItem('current_time');
