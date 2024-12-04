@@ -25,7 +25,7 @@ const Contact = () => {
                 <div className="icon"><b><i class="fa-solid fa-location-dot"></i></b></div>
                 <div className="text">
                   <h3>Address:</h3>
-                  <p>Chapagaun , Lalitpur</p>
+                  <p><a href="https://maps.app.goo.gl/DavM5zLTpiuN6y3c8" target="_blank">Chapagaun, Lalitpur</a></p>
                 </div>
               </div>
               <div className="box">
@@ -39,7 +39,7 @@ const Contact = () => {
                 <div className="icon"><b><i class="fa-solid fa-envelope"></i></b></div>
                 <div className="text">
                   <h3>Email:</h3>
-                  <p>mhjroj78@gamil.com</p>
+                  <p><a href="mailto:mhjroj78@gamil.com">mhjroj78@gamil.com</a></p>
                 </div>
               </div>
             </div>

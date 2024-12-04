@@ -25,14 +25,12 @@ const About = () => {
         <div className="container">
           <div className="row">
             <div className="about-col-1">
-              <img src="/roj.jpg" alt="Roj" />
+              <img src="/Roj.png" alt="Roj" />
             </div>
             <div className="about-col-2">
               <h1 className="sub-title">About Me</h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                A excepturi ut aspernatur quibusdam voluptates perferendis, sit quam veritatis repellat modi tempora veniam hic magni eaque aliquam!
-                Quam, labore totam officia sapiente cupiditate nulla architecto sunt fuga consequatur maiores? Quas quae maxime accusantium odit sunt voluptas.
+              I’m a passionate frontend developer with experience in React.js, creating clean and user-friendly web interfaces. Currently honing my skills through real-world projects, I aim to build seamless digital experiences. When I’m not coding, I’m exploring creative ideas and tackling new challenges in tech.
               </p>
               <div className="tab-titles">
                 <p

@@ -4,7 +4,6 @@
 body {
     overflow-x: hidden;
 }
-
 .contact{
     position: relative;
     min-height: 100%;
@@ -14,6 +13,7 @@ body {
     flex-direction: column;
     font-family: cursive; 
     overflow: hidden;  
+    margin-top: -35px;
 }
 .contact .content{
     max-width: 800px;
@@ -92,6 +92,12 @@ body {
     font-weight: 500;
     color: #01dbc2;
 }
+.text a{
+    color: #fff;
+}
+.text a:hover{
+    color: #fff;
+}
 .contactInfo .txt{
     color: #01dbc2;
     margin-top: 50px;
@@ -115,6 +121,14 @@ body {
     animation-delay:  -1.5s;
 }
 .containerr .contactForm::after{
+    content: '';
+    position: absolute;
+    inset: 2px;
+    border:20px solid ;
+    /* border-color:transparent ; */
+    background: #333;
+}
+.dark .containerr .contactForm::after{
     content: '';
     position: absolute;
     inset: 2px;

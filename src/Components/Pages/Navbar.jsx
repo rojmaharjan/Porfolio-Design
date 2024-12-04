@@ -12,12 +12,12 @@ const Navbar = ({ theme, settheme }) => {
 
   return (
     <>
-      <div className="navbar">
+      <div className="navbar" >
         <Link to="/"><img src="/roj logo.png" alt="Roj" className="logo" /></Link>
         <ul>
           <Link to="/"><li>Home</li></Link>
           <Link to="/About"><li>About</li></Link>
-          <Link to="/Services"><li>Service</li></Link>
+          <Link to="/Services"><li>Projects</li></Link>
           <Link to="/Contact"><li>Contact</li></Link>
         </ul>
         <div className="search-box">

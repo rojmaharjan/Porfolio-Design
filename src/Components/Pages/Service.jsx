@@ -17,7 +17,7 @@ const Service = () => {
          <Navbar theme={theme} settheme={settheme}/>
          <div id="Services">
         <div className="container">
-          <h1 className="sub-title1">My Services</h1>
+          <h1 className="sub-title1">My Projects</h1>
           <div className="services-list">
             <div>
               <h2>Web Design</h2>

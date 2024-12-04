@@ -15,10 +15,35 @@
     margin-left: 20px;
 }
 .about-col-1 img{
-    width: 400px;
+    width: 450px;
     border-radius: 50px;
     margin-left: 100px;
     margin-top: 40px;
+    object-fit: fill;
+    background-color: #545252;
+    border: 2px solid #545252;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    box-shadow: 0 0 40px #000000;
+}
+.about-col-1 img:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 45px #e8ca9e;
+}
+.dark .about-col-1 img{
+    width: 450px;
+    border-radius: 50px;
+    margin-left: 100px;
+    margin-top: 40px;
+    object-fit: fill;
+    border: 2px solid #b9b8b6;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    box-shadow: 0 0 40px #9f9f9e;
+}
+.dark .about-col-1 img:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 45px #e0cbab;
 }
 .about-col-2{
     flex-basis: 60%;
