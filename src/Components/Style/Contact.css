@@ -21,9 +21,13 @@ body {
 }
 .content h1{
     font-size: 3.5em;
+    color: #000000;
+    font-weight: 500;  
+}
+.dark .content h1{
+    font-size: 3.5em;
     color: #fff;
-    font-weight: 500;
-    
+    font-weight: 500;  
 }
 .containerr{
     width: 100%;
@@ -93,10 +97,13 @@ body {
     color: #01dbc2;
 }
 .text a{
+    color: #000000;
+}
+.dark .text a{
     color: #fff;
 }
 .text a:hover{
-    color: #fff;
+    color: #000000;
 }
 .contactInfo .txt{
     color: #01dbc2;
@@ -209,6 +216,9 @@ body {
     .containerr{
         flex-direction: column;
     }
+    .containerr .contactInfo{
+        margin-right: 200px;
+    }
     .containerr .contactInfo,
     .containerr .contactForm{
         width: 100%;
@@ -219,5 +229,34 @@ body {
     }
     .containerr .contactForm form{
         padding: 10px;
+    }
+}
+@media (max-width: 480px) {
+    .contact {
+        padding: 30px; 
+        margin-top: -10px;
+    }
+    .containerr {
+        flex-direction: column; 
+    }
+    .containerr .contactInfo {
+        margin-right: 0; 
+        margin-bottom: 20px; 
+        margin-left: -250px;
+    }
+    .containerr .contactInfo,
+    .containerr .contactForm {
+        width: 100%;
+    }
+    .containerr .contactForm {
+        padding: 20px; 
+    }
+    .containerr .contactForm form {
+        padding: 10px; 
+    }
+    .containerr .contactForm input,
+    .containerr .contactForm textarea {
+        width: 100%; 
+        font-size: 14px; 
     }
 }

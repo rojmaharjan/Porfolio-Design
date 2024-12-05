@@ -19,7 +19,7 @@ useEffect(()=>{
     <div className="home">
     <div className="header-text">
             <p>Frontend Developer</p>
-            <h1>Hi, I'm <span>Roj Maharjan</span> <br /></h1>
+            <h1>Hello, I'm <span>Roj Maharjan</span> <br /></h1>
           </div>
     <div className="image">
     {theme === 'dark' && <img src="/image.png" alt="Profile" />}

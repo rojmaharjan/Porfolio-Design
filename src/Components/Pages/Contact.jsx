@@ -32,7 +32,7 @@ const Contact = () => {
                 <div className="icon"><b><i class="fa-solid fa-phone"></i></b></div>
                 <div className="text">
                   <h3>Phone:</h3>
-                  <p>986925487625</p>
+                  <p><a href="tel:+986925487625">986925487625</a></p>
                 </div>
               </div>
               <div className="box">
