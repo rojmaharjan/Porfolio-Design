@@ -139,7 +139,14 @@
     justify-content: center;
     margin-left: 40px;
 }
-
+.skillul {
+    text-align: center;
+    align-items: center;
+    justify-content: center;      
+}
+.skillul img{
+    margin-right: 20px;
+}
 .tab-title .skillul,
 .tab-title .experince {
     justify-content: center;

@@ -35,10 +35,10 @@ const About = () => {
               <h3>Connect with me</h3>
               <div classname="socialmediia">
                 <div className="icons">
-                <a href="" className="icons-contact"  style={{marginRight: 30}} data-toggle="tooltip" data-placement="bottom" title="facebook"><i className="fa-brands fa-facebook" /></a>
-                <a href="" className="icons-contact"  style={{marginRight: 30}} data-toggle="tooltip" data-placement="bottom" title="instagram"><i className="fa-brands fa-instagram" /></a>
-                <a href="" className="icons-contact"  style={{marginRight: 30}} data-toggle="tooltip" data-placement="bottom" title="linkedin"><i className="fa-brands fa-linkedin" /></a>
-                <a href="" className="icons-contact"  style={{marginRight: 30}} data-toggle="tooltip" data-placement="bottom" title="github"><i className="fa-brands fa-github" /></a>
+                <a href="https://www.facebook.com/1rojmaharjan/" className="icons-contact"  style={{marginRight: 30}} data-toggle="tooltip" data-placement="bottom" title="facebook"><i className="fa-brands fa-facebook" /></a>
+                <a href="https://www.instagram.com/rojal.mhj/" className="icons-contact"  style={{marginRight: 30}} data-toggle="tooltip" data-placement="bottom" title="instagram"><i className="fa-brands fa-instagram" /></a>
+                <a href="https://www.linkedin.com/in/roj-maharjan-7929b9305/" className="icons-contact"  style={{marginRight: 30}} data-toggle="tooltip" data-placement="bottom" title="linkedin"><i className="fa-brands fa-linkedin" /></a>
+                <a href="https://github.com/rojmaharjan" className="icons-contact"  style={{marginRight: 30}} data-toggle="tooltip" data-placement="bottom" title="github"><i className="fa-brands fa-github" /></a>
                 </div>
                 </div>
             </div>
@@ -66,12 +66,17 @@ const About = () => {
   
               <div className={`tab-contents ${activeTab === 'skills' ? 'active-tab' : ''}`} id="skills">
                 <div className="tab-title">
-                  <ul className='skillul'>
-                    <li ><strong>Frontend:</strong> HTML, CSS, JavaScript, Bootstrap, ReactJS</li><br/>
-                    <li ><strong>Backend:</strong> PHP, MySQL, MongoDB</li><br/>
-                    <li ><strong>Frameworks/Tools:</strong> ReactJS, .NET Framework</li><br/>
-                    <li ><strong>Networking:</strong> Cisco Packet Tracer</li>
-                  </ul>
+                  <div className="skillul">
+                    <img src="html.png" alt="" />
+                    <img src="css.png" alt="" />
+                    <img src="js.png" alt="" />
+                    <img src="Bootstrap.png" alt="" />
+                    <img src="react.png" alt="" />
+                    <img src="php.png" alt="" />
+                    <img src="java.png" alt="" />
+                    <img src="c.png" alt="" />
+                    <img src="c#.png" alt="" />
+                  </div>
                 </div>
               </div>
   
