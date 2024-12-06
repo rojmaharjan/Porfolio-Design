@@ -20,18 +20,24 @@ const Service = () => {
           <h1 className="sub-title1">My Projects</h1>
           <div className="services-list">
             <div className='project'>
+            <div className="img">
+                <img src="/Evoting.png" alt="img" />
+              </div>
               <h2>E-Voting System</h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nulla optio ipsa corrupti! Ad neque consectetur explicabo ipsam eos amet?
               </p>
-              <p><a href="http://">Click here to visit the site</a></p>
+              <p><a href="https://electronics-voting-system.vercel.app/" style={{color:'rgb(88, 88, 238)'}}>Click here to visit the site</a></p>
             </div>
             <div className='project'>
+            <div className="img">
+                <img src="/Orderup.png" alt="img" />
+              </div>
               <h2>Order Up</h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nulla optio ipsa corrupti! Ad neque consectetur explicabo ipsam eos amet?
               </p>
-              <p><a href="http://">Click here to visit the site</a></p>
+              <p><a href="https://frontend-food-delivery-iota.vercel.app/" style={{color:'rgb(88, 88, 238)'}}>Click here to visit the site</a></p>
             </div>
             <div className='project'>
             <div className="img">
@@ -41,7 +47,7 @@ const Service = () => {
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nulla optio ipsa corrupti! Ad neque consectetur explicabo ipsam eos amet?
               </p>
-              <p><a href="http://">Click here to visit the site</a></p>
+              <p><a href="https://github.com/rojmaharjan/Recipe-Food-Info-Display" style={{color:'rgb(88, 88, 238)'}}>Click here to visit the site</a></p>
             </div>
             <div className='project'>
               <div className="img">
@@ -51,7 +57,7 @@ const Service = () => {
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nulla optio ipsa corrupti! Ad neque consectetur explicabo ipsam eos amet?
               </p>
-              <p><a href="http://">Click here to visit the site</a></p>
+              <p><a href="https://github.com/rojmaharjan/Counter-Application" style={{color:'rgb(88, 88, 238)'}}>Click here to visit the site</a></p>
             </div>
             <div className='project'>
             <div className="img">
@@ -61,7 +67,7 @@ const Service = () => {
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nulla optio ipsa corrupti! Ad neque consectetur explicabo ipsam eos amet?
               </p>
-              <p><a href="http://">Click here to visit the site</a></p>
+              <a href="https://github.com/rojmaharjan/Porfolio-Design" style={{color:'rgb(88, 88, 238)'}}>Click here to visit the site</a>
             </div>
           </div>
         </div>

@@ -22,8 +22,11 @@
     margin-top: 50px;
     margin-right: 20px;
 }
+.dark .services-list .project{
+    background: #2a2a2a;
+}
 .services-list .project{
-    background: #262626;
+    background: rgba(60, 198, 225, 0.8);;
     display: flex;
     flex-direction: column;
     padding: 40px;
@@ -33,13 +36,15 @@
     border-radius: 20px;
     margin-left: 10px;
     margin-right: 10px;
-    transition: background 0.5s, transform 0.5s;
-    box-shadow: 2px 2px 3px
-    rgb(0, 0, 0), 
-     0 0 25px rgb(95, 95, 96), 
-    0 0 5px rgb(56, 56, 56);
 }
-.dark .services-list .project{
+.services-list .project:hover{
+    transition: background 0.5s, transform 0.5s;
+    box-shadow: 
+    2px 2px 3px rgba(0, 0, 0, 0.6),  
+    0 0 25px rgba(50, 50, 50, 0.5),
+    0 0 5px rgba(80, 80, 80, 0.8);
+}
+.dark .services-list .project:hover{
     transition: background 0.5s, transform 0.5s;
     box-shadow: 2px 2px 3px
     rgb(246, 246, 246), 
@@ -74,4 +79,7 @@
 .img img{
     width: 100%;
     border-radius: 10px;
+}
+.project .a{
+    color: rgb(88, 88, 238);
 }
