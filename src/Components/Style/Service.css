@@ -6,21 +6,26 @@
 .sub-title1{
     font-size: 60px;                                        
     font-weight: 600;
-    color: #ffa500;
+    color: #71716fab;
     text-align: center;
     line-height: 0.8;
     letter-spacing: 2px;
-    padding: 50px;
-            
+    padding: 50px;       
+}
+.dark .sub-title1{
+    color: #fff;
 }
 .services-list{
-     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
+    margin-right: 20px;
 }
-.services-list div{
+.services-list .project{
     background: #262626;
+    display: flex;
+    flex-direction: column;
     padding: 40px;
     font-size: 13px;
     font-weight: 300;
@@ -30,23 +35,40 @@
     margin-right: 10px;
     transition: background 0.5s, transform 0.5s;
     box-shadow: 2px 2px 3px
+    rgb(0, 0, 0), 
+     0 0 25px rgb(95, 95, 96), 
+    0 0 5px rgb(56, 56, 56);
+}
+.dark .services-list .project{
+    transition: background 0.5s, transform 0.5s;
+    box-shadow: 2px 2px 3px
     rgb(246, 246, 246), 
      0 0 25px rgb(184, 184, 186), 
     0 0 5px rgb(219, 219, 219);
 }
-.services-list div h2{
+.services-list .project h2{
     font-size: 30px;
     font-weight: 500;
     margin-bottom: 15px;
+    text-align: center;
+    color: lightseagreen;
+    margin-top: 20px;
 }
-.services-list div a{
+.services-list .project a{
     text-decoration: none;
     color: #fff;
     font-size: 12px;
     margin-top: 20px;
     display: inline-block;
 }
-.services-list div:hover{
-     background: #ff004f;
+.services-list .project:hover{
     transform: translateY(-10px);
+}
+.project .img{
+    height: auto;
+    max-width: 100%;
+}
+.img img{
+    width: 100%;
+    border-radius: 10px;
 }

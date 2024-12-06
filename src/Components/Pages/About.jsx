@@ -30,9 +30,20 @@ const About = () => {
             <div className="about-col-2">
               <h1 className="sub-title">About Me</h1>
               <p>
-              I’m a passionate frontend developer with experience in React.js, creating clean and user-friendly web interfaces. Currently honing my skills through real-world projects, I aim to build seamless digital experiences. When I’m not coding, I’m exploring creative ideas and tackling new challenges in tech.
+              I’m a passionate frontend developer with beginner level of experience in React.js, creating clean and user-friendly web interfaces. Currently honing my skills through on doing Internship in <a href="http://https://geniussystems.com.np/">Genuis System Pvt,Ltd</a>. My aim to build seamless digital experiences. When I’m not coding, I’m exploring creative ideas and tackling new challenges in tech.
               </p>
-              <div className="tab-titles">
+              <h3>Connect with me</h3>
+              <div classname="socialmediia">
+                <div className="icons">
+                <a href="" className="icons-contact"  style={{marginRight: 30}} data-toggle="tooltip" data-placement="bottom" title="facebook"><i className="fa-brands fa-facebook" /></a>
+                <a href="" className="icons-contact"  style={{marginRight: 30}} data-toggle="tooltip" data-placement="bottom" title="instagram"><i className="fa-brands fa-instagram" /></a>
+                <a href="" className="icons-contact"  style={{marginRight: 30}} data-toggle="tooltip" data-placement="bottom" title="linkedin"><i className="fa-brands fa-linkedin" /></a>
+                <a href="" className="icons-contact"  style={{marginRight: 30}} data-toggle="tooltip" data-placement="bottom" title="github"><i className="fa-brands fa-github" /></a>
+                </div>
+                </div>
+            </div>
+          </div>
+          <div className="tab-titles">
                 <p
                   className={`tab-links ${activeTab === 'skills' ? 'active-link' : ''}`}
                   onClick={() => handleTabClick('skills')}
@@ -53,31 +64,61 @@ const About = () => {
                 </p>
               </div>
   
-              {/* <div className={`tab-contents ${activeTab === 'skills' ? 'active-tab' : ''}`} id="skills">
-                <ul>
-                  <li><span>UI/UX</span><br />Designing web app interface</li>
-                  <li><span>Web Development</span><br />Web app Development</li>
-                  <li><span>App Development</span><br />Building Android iOS apps</li>
-                </ul>
+              <div className={`tab-contents ${activeTab === 'skills' ? 'active-tab' : ''}`} id="skills">
+                <div className="tab-title">
+                  <ul className='skillul'>
+                    <li ><strong>Frontend:</strong> HTML, CSS, JavaScript, Bootstrap, ReactJS</li><br/>
+                    <li ><strong>Backend:</strong> PHP, MySQL, MongoDB</li><br/>
+                    <li ><strong>Frameworks/Tools:</strong> ReactJS, .NET Framework</li><br/>
+                    <li ><strong>Networking:</strong> Cisco Packet Tracer</li>
+                  </ul>
+                </div>
               </div>
   
               <div className={`tab-contents ${activeTab === 'experience' ? 'active-tab' : ''}`} id="Experience">
-                <ul>
-                  <li><span>UI/UX</span><br />ABCHJDMDMDMMDMDMDMDDMDMDMD</li>
-                  <li><span>Web Development</span><br />Web app Development</li>
-                  <li><span>App Development</span><br />Building Android iOS apps</li>
-                </ul>
+                <div className="tab-title">
+                <ul className='experince'>
+                    <h3><strong>Worked as a Sculpture at a self-employed</strong></h3>
+                  </ul>
+                </div>
               </div>
   
               <div className={`tab-contents ${activeTab === 'education' ? 'active-tab' : ''}`} id="Education">
-                <ul>
-                  <li><span>UI/UX</span><br />ANAJNCJDNDJCMDJDMDMF</li>
-                  <li><span>Web Development</span><br />Web app Development</li>
-                  <li><span>App Development</span><br />Building Android iOS apps</li>
-                </ul>
-              </div> */}
-            </div>
-          </div>
+                <div className="table">
+                <table>
+                  <tbody>
+                  <tr>
+                    <th>Level</th>
+                    <th>Passed Year</th>
+                    <th>Board</th>
+                    <th>Grade</th>
+                    <th>Institution</th>
+                  </tr>
+                  <tr>
+                    <td>Bachelor of Computer Application</td>
+                    <td>Running (7th Semester)</td>
+                    <td>TU</td>
+                    <td>--</td>
+                    <td>Jana Bhawana Campus, Pyangaun</td>
+                  </tr>
+                  <tr>
+                    <td>+2</td>
+                    <td>2077</td>
+                    <td>NEB</td>
+                    <td>3.14</td>
+                    <td>Pinnacle academy college</td>
+                  </tr>
+                  <tr>
+                    <td>SEE</td>
+                    <td>2074</td>
+                    <td>NEB</td>
+                    <td>3.50 </td>
+                    <td>St.paul School</td>
+                  </tr>
+                  </tbody>
+                </table>
+                </div>
+              </div>
         </div>
       </div>
   

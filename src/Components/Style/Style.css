@@ -44,7 +44,7 @@ ul{
     flex: 1;
     list-style: none;
     text-align: center;
-    margin-left: 420px;
+    margin-left: 20px;
 }
 ul li{
     display: inline-block;
@@ -109,6 +109,9 @@ li:hover{
     color: #fff;
 }
 /* Responsive Design */
+@media only screen {
+
+}
 @media (max-width: 1024px) {
     .navbar {
         flex-direction: row;
@@ -123,6 +126,7 @@ li:hover{
     }
     .search-box {
         margin-top: 10px;
+        display: none;
     }
     
 }
@@ -136,6 +140,7 @@ li:hover{
     }
     .search-box {
         max-width: 100%;
+        display: none;
     }
     .search-box input {
         font-size: 14px;
@@ -167,7 +172,7 @@ li:hover{
     }
     .search-box {
         padding: 5px 10px;
-        /* display: none; */
+        display: none;
     }
     .search-box input {
         font-size: 12px;

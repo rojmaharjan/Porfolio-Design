@@ -48,6 +48,7 @@ body {
     display: flex;
     cursor: pointer;
     margin-left: 150px;
+    margin-bottom: 20px;
 }
 .containerr .contactInfo .box .icon{
     position: relative;

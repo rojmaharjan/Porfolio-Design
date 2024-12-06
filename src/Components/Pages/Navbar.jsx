@@ -14,11 +14,11 @@ const Navbar = ({ theme, settheme }) => {
     <>
       <div className="navbar" >
         <Link to="/"><img src="/roj logo.png" alt="Roj" className="logo" /></Link>
-        <ul>
-          <Link to="/"><li>Home</li></Link>
-          <Link to="/About"><li>About</li></Link>
-          <Link to="/Services"><li>Projects</li></Link>
-          <Link to="/Contact"><li>Contact</li></Link>
+        <ul className='ul'>
+          <Link to="/"><li  className='li'>Home</li></Link>
+          <Link to="/About"><li className='li'>About</li></Link>
+          <Link to="/Services"><li className='li'>Projects</li></Link>
+          <Link to="/Contact"><li className='li'>Contact</li></Link>
         </ul>
         <div className="search-box">
           <input type="text" placeholder="Search" />
@@ -28,12 +28,13 @@ const Navbar = ({ theme, settheme }) => {
           />
         </div>
         <img
-          onClick={toggle_mode} // Correctly calling the function
+          onClick={toggle_mode} 
           src={theme === 'light' ? toggle_light : toggle_dark}
           alt=""
           className="toggle-icon"
         />
       </div>
+      
     </>
   );
 };
