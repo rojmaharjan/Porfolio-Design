@@ -61,6 +61,9 @@
     margin-top: 20px;
     display: inline-block;
 }
+.project p{
+    color:#eaeaea ;
+}
 .services-list .project:hover{
     transform: translateY(-10px);
 }
