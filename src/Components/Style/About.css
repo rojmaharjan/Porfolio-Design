@@ -80,12 +80,14 @@
 .socialmediia {
     display: flex; 
     gap: 20px; 
-    margin-top: 20px; 
-}
-.socialmediia .icons{
+    margin-top: 20px;
     justify-content: center;
     align-items: center;
-    margin-left: 50px;
+}
+.icons{
+    display: flex;
+    margin-left: 280px; 
+    margin-top: 20px;
 }
 .icons-contact {
     font-size: 44px; 
@@ -213,6 +215,9 @@
     .tab-titles {
         margin-left: 20%;
     }
+    .icons{
+        margin-left: auto;
+    }
 }
 @media (max-width: 768px) {
     .row {
@@ -238,7 +243,9 @@
     .tab-titles {
         margin-left: 200px;
     }
-
+    .icons{
+        margin-left: 200px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -256,7 +263,8 @@
     }
     .about-col-2 {
         text-align: center;
-        padding: 20px;
+        /* padding: 20px; */
+        margin: auto;
     }
     .sub-title,
     .dark .sub-title {
@@ -264,7 +272,7 @@
         padding: 20px; 
     }
     .tab-titles {
-        margin-left: 0; 
+        margin: auto;
         flex-direction: column; 
         align-items: center;
     }
@@ -274,5 +282,8 @@
     }
     .dark .tab-titles {
         margin-left: 0; 
+    }
+    .icons{
+        margin: auto;
     }
 }
