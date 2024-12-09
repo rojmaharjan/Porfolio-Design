@@ -68,9 +68,12 @@
     padding: 80px;
     font-family: cursive;    
 }
+.about-col-2 h1{
+    margin-bottom: -10px;
+}
 .about-col-2 p{
     margin-right: 20px;
-    margin-left: 30px;
+    font-size: 20px;
 }
 .about-col-2 h3{
     text-align: center;
@@ -84,11 +87,16 @@
     justify-content: center;
     align-items: center;
 }
-.icons{
+.socialmediia {
     display: flex;
-    margin-left: 280px; 
-    margin-top: 20px;
+    justify-content: center;
 }
+.icons {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 10px;
+  }
 .icons-contact {
     font-size: 44px; 
     text-decoration: none; 
@@ -286,17 +294,22 @@
         margin: auto;
         margin-left: 50px;
     }
-    .icons {
+    /* .socialmediia {
         display: flex;
         justify-content: center;
-        flex-wrap: wrap; 
-        margin: 10px auto;
+      } */
+    .icons {
+        /* display: flex;
+        justify-content: center; */
+        margin: auto;
         margin-bottom: 40px;
+        
+        /* justify-content: center;
+        align-items: center; */
     }
 
     .icons-contact {
         font-size: 40px; 
-        margin-left: -4.5px;
     }
     .tab-contents{
         margin-top: 10px;
@@ -324,45 +337,3 @@
         margin: 10px;
     }
 }
-
-/* @media (max-width: 480px) {
-    .row {
-        display: flex;
-        flex-direction: column; 
-        align-items: center;
-        margin: auto; 
-    }
-    .about-col-1 img {
-        width: 70%; 
-        margin: auto;
-        height: auto;
-    }
-    .dark .about-col-1 img {
-        width: 70%;
-        
-    }
-    .about-col-2 {
-        text-align: center;
-        margin: auto;
-    }
-    .sub-title,
-    .dark .sub-title {
-        font-size: 30px; 
-        padding: 20px; 
-    }
-    .tab-titles {
-        margin: auto;
-        flex-direction: column; 
-        align-items: center;
-    }
-    .tab-links {
-        margin-bottom: 20px;
-        margin-right: 0; 
-    }
-    .dark .tab-titles {
-        margin-left: 0; 
-    }
-    .icons{
-        margin: auto;
-    }
-} */

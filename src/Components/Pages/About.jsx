@@ -29,8 +29,9 @@ const About = () => {
             </div>
             <div className="about-col-2">
               <h1 className="sub-title">About Me</h1>
+              <h2>Roj Maharjan,</h2><br />
               <p>
-              I’m a passionate frontend developer with beginner level of experience in React.js, creating clean and user-friendly web interfaces. Currently honing my skills through on doing Internship in <a href="http://https://geniussystems.com.np/">Genuis System Pvt,Ltd</a>. My aim to build seamless digital experiences. When I’m not coding, I’m exploring creative ideas and tackling new challenges in tech.
+              Hi, I’m a passionate frontend developer with beginner level of experience in React.js, creating clean and user-friendly web interfaces. Currently honing my skills through on doing Internship in <a href="http://https://geniussystems.com.np/">Genuis System Pvt,Ltd</a>. My aim to build seamless digital experiences. When I’m not coding, I’m exploring creative ideas and tackling new challenges in tech.
               </p>
               <h3>Connect with me</h3>
               <div classname="socialmediia">
