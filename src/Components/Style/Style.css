@@ -23,6 +23,9 @@
     transition: 0.5s;
     height: 85px;
     box-shadow: 0 0 0 1px rgb(184, 184, 186);
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 .logo{
     width: 110px;

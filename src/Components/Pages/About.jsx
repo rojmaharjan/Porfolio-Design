@@ -67,15 +67,15 @@ const About = () => {
               <div className={`tab-contents ${activeTab === 'skills' ? 'active-tab' : ''}`} id="skills">
                 <div className="tab-title">
                   <div className="skillul">
-                    <img src="html.png" alt="" />
-                    <img src="css.png" alt="" />
-                    <img src="js.png" alt="" />
-                    <img src="Bootstrap.png" alt="" />
-                    <img src="react.png" alt="" />
-                    <img src="php.png" alt="" />
-                    <img src="java.png" alt="" />
-                    <img src="c.png" alt="" />
-                    <img src="c#.png" alt="" />
+                    <img src="html.png" alt="" title="Html"/>
+                    <img src="css.png" alt="" title="CSS"/>
+                    <img src="js.png" alt=""  title="JS"/>
+                    <img src="Bootstrap.png" alt="" title="Bootstrap" />
+                    <img src="react.png" alt="" title="ReactJs" />
+                    <img src="php.png" alt=""  title="PHP"/>
+                    <img src="java.png" alt="" title="JAVA" />
+                    <img src="c.png" alt=""  title="C"/>
+                    <img src="c#.png" alt=""  title="C3"/>
                   </div>
                 </div>
               </div>
