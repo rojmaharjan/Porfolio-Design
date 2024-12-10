@@ -47,7 +47,7 @@ const Service = () => {
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nulla optio ipsa corrupti! Ad neque consectetur explicabo ipsam eos amet?
               </p>
-              <p><a href="https://github.com/rojmaharjan/Recipe-Food-Info-Display" style={{color:'rgb(88, 88, 238)'}}>Click here to visit the site</a></p>
+              <p><a href="https://recipe-food-info-display.vercel.app/" style={{color:'rgb(88, 88, 238)'}}>Click here to visit the site</a></p>
             </div>
             <div className='project'>
               <div className="img">
@@ -57,7 +57,7 @@ const Service = () => {
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nulla optio ipsa corrupti! Ad neque consectetur explicabo ipsam eos amet?
               </p>
-              <p><a href="https://github.com/rojmaharjan/Counter-Application" style={{color:'rgb(88, 88, 238)'}}>Click here to visit the site</a></p>
+              <p><a href="https://counter-application-rho.vercel.app/" style={{color:'rgb(88, 88, 238)'}}>Click here to visit the site</a></p>
             </div>
             <div className='project'>
             <div className="img">
