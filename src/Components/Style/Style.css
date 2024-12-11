@@ -69,7 +69,7 @@ li:hover{
     width: 30px;
     cursor: pointer;
     margin-left: 80px;
-    margin-right: -80px;
+    margin-right: -50px;
 }
 .search-box{
     display: flex;
